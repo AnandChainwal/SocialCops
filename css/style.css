@@ -1,0 +1,277 @@
+*{
+    box-sizing:border-box;
+}
+
+
+body{
+    
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+            margin: 0;
+            font-size:1rem;
+            line-height: 1.5;
+                color:#333;
+                    overflow-x: hidden;
+    
+}
+
+.main_header{
+                height: 100vh;
+                display: flex;
+                align-items: center;
+                    color:#fff;
+}
+
+
+.container{
+        max-width: 960px;
+            padding-left: 1rem;
+        padding-right: 1rem;
+            margin: auto;
+        text-align: center;
+}
+
+.video_container{
+            position: absolute;
+                    top:0;
+                left: 0;
+            width:100%;
+            overflow-x: hidden;
+      overflow-y: hidden;
+            height:100vh;  
+  z-index: -100;
+}
+
+.video_container video{
+        min-height: 100%;
+        min-width: 100%;
+}
+.header_content{
+            z-index:2;
+}
+
+.header_content h1{
+            margin-bottom: 160px;
+            font-size:50px;
+      margin-top:150px;
+    
+}
+
+.header_content p{
+            font-size: 24px;
+            display: block;
+            padding-bottom: 24px;
+}
+
+.header_content a{
+             background: #FECE46;
+                color:#4E4B4A;
+            text-decoration: none;
+            font-size:1.2rem;
+                padding: 1rem 2rem;
+}
+
+
+
+.section{
+  padding:20px 0;
+    margin-bottom:100px;
+}
+
+.section-a{
+    background-color:#FECE46;
+    font-size:1.3rem;
+}
+.section-b{
+  background:#fff;
+  color:#4E4B4A;
+
+
+}
+
+.container h2{
+      margin-bottom:20px;
+}
+
+#section_b_pic{
+    max-width:991px;
+  margin-bottom:50px;
+  
+}
+
+#btn2{
+              color:#393736;
+                background-color:#fff;
+            text-decoration: none;
+            font-size:1.2rem;
+            border:1px solid #4E4B4A;
+                padding: 1rem 2rem;
+     box-shadow: inset 0 0 0 0 #393736;
+	transition: all ease 0.4s;    
+}
+
+
+#btn2:hover{
+      box-shadow: inset 280px 0 0 0 #393736 ;
+    color: #fff;
+    
+  
+}
+
+
+h2{
+      margin-top:50px;
+      
+}
+
+.btn_container{
+  
+    display:inline-block;
+      width:906px;
+ margin-left:50px;
+  margin-bottom:40px;
+  margin-top:40px;
+}
+
+#section_c_p1{
+  min-width:60px;
+      min-height:40px;
+      max-width:70px;
+      max-height:60px;
+  margin-right:90px;
+  
+}
+
+#section_c_p1:hover{
+    text-decoration:none;
+  border-bottom: 5px solid #FECE46;
+}
+
+#big-image{
+      margin-bottom:60px;
+}
+
+.header_content_logo{
+    width:990px;
+  margin:auto;
+  margin-top:100px;
+}
+
+#video_logo{
+    width:140px;
+  height:50px;
+  margin-right:10px;
+}
+
+
+.margin{
+    margin-bottom:50px;
+}
+
+
+
+.navbar{
+    position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:3;
+ 
+  
+}
+
+li a {
+  color:#bababa;
+  margin-left:10px;
+  text-transform:uppercase;
+  font-size: .8rem;
+  font-weight:bold;
+}
+
+
+#btn{
+          border:1px solid #FECE46; 
+          color:#FECE46;
+            text-decoration: none;
+            font-size:.8rem;
+                
+}
+
+.nav-link:hover{
+   color:#fff;
+  text-decoration:none;
+  border-bottom: 5px solid #FECE46;
+}
+
+.nav_scroll:hover{
+   color:black;
+}
+.scroll{
+    background-color: #FFF;
+      color:#4E4B50;
+
+}
+
+.section-d_container{
+  display:flex;
+  margin-right:49px;
+  width:100%;
+    margin-top:-16px;
+  background-color:#FAF8F7;
+  height:60vh;
+}
+
+blockquote {
+    border-radius: 3px;
+    position: relative;  
+    text-align: center;
+    padding: 1rem 1.2rem;
+    width: 80%;  
+    color: #4a4a4a;
+    margin: 8rem auto 2rem;
+    color: #4a4a4a;
+    background: #FAF8F7;
+  font-size:20px;
+}
+
+ blockquote:before,
+ blockquote:after{
+    font-family: FontAwesome;
+    position: absolute;
+    top: 13px;
+    color: #E8E8E8;
+    font-size: 70px;
+}
+ blockquote:before{
+    content: "\f10d";
+    margin-right: 13px;
+    right: 100%;
+    margin-top:-50px;
+}
+ blockquote:after{
+    content: "\f10e";
+    margin-left: 13px;
+    left: 50%;  
+   margin-top:110px;
+}
+
+blockquote p i{
+  font-size:16px;    
+}
+blockquote p{
+  width:610px;
+}
+#myimg{ 
+  border-radius:50%;
+}
+.img_container{
+  position:absolute;
+  right:190px;
+  margin-top:8rem;
+}
+.img_container p{
+    margin-top:20px;
+      margin-left:-10px;
+  text-align:center;
+  line-height:30px;
+}
+
