@@ -74,12 +74,13 @@ body{
 
 .section{
   padding:20px 0;
-    margin-bottom:100px;
+    padding-bottom:100px;
 }
 
 .section-a{
     background-color:#FECE46;
     font-size:1.3rem;
+   padding:20px 0;
 }
 .section-b{
   background:#fff;
@@ -215,7 +216,7 @@ li a {
   display:flex;
   margin-right:49px;
   width:100%;
-    margin-top:-16px;
+   
   background-color:#FAF8F7;
   height:60vh;
 }
@@ -266,7 +267,7 @@ blockquote p{
 .img_container{
   position:absolute;
   right:190px;
-  margin-top:8rem;
+  margin-top:7rem;
 }
 .img_container p{
     margin-top:20px;
@@ -275,3 +276,48 @@ blockquote p{
   line-height:30px;
 }
 
+.section-e{
+    background-color:#FAF8F7;
+  
+}
+.section-e_container{
+       max-width: 1200px;
+            padding-left: 1rem;
+        padding-right: 1rem;
+            margin: auto;
+      padding-top:60px;
+        text-align: center;
+      
+}
+
+hr{
+  margin-bottom:0;
+  margin-top:0;
+}
+
+
+
+.org{
+  margin-top:40px;
+     width:140px;
+  height:50px;
+  margin-right:50px;
+  }
+
+
+h3{
+    font-size:34px;
+  font-weight:normal;
+}
+
+.section-e_container a{
+        display:block;
+          margin:auto;
+          width:250px;
+            margin-top:50px;
+             background: #FECE46;
+                color:#4E4B4A;
+            text-decoration: none;
+            font-size:1.2rem;
+                padding: 1rem 2rem;
+}
